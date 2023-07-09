@@ -23,6 +23,10 @@ import {
     weatherapp,
     mai,
     coursera,
+    github,
+    telegram,
+    linkedin,
+    resume,
 } from '../assets';
 
 export const navLinks = [
@@ -56,6 +60,29 @@ const services = [
     {
         title: 'Software Engineering',
         icon: software,
+    },
+];
+
+const contacts = [
+    {
+        title: 'LinkedIn',
+        icon: linkedin,
+        link: 'https://linkedin.com/in/vitalii-t/',
+    },
+    {
+        title: 'Resume',
+        icon: resume,
+        link: 'https://www.dropbox.com/s/nwaikxaodmcdc9a/Resume%20Vitalii%20Tereshchenko.pdf?dl=1',
+    },
+    {
+        title: 'Github',
+        icon: github,
+        link: 'https://github.com/metalyx',
+    },
+    {
+        title: 'Telegram',
+        icon: telegram,
+        link: 'https://t.me/metalyxxx',
     },
 ];
 
@@ -275,4 +302,11 @@ const projects = [
     },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+export {
+    services,
+    technologies,
+    experiences,
+    testimonials,
+    projects,
+    contacts,
+};

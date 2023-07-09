@@ -26,11 +26,18 @@ import perscholas from './company/perscholas.png';
 import intradesk from './company/intradesk.png';
 import gotour from './company/gotour.png';
 
+import telegram from './contacts/telegram.png';
+import resume from './contacts/resume.svg';
+import linkedin from './contacts/linkedin.png';
+
 import mylibrary from './mylibrary.png';
 import quizpopapp from './quizpopapp.png';
 import weatherapp from './weatherapp.png';
 
 export {
+    telegram,
+    resume,
+    linkedin,
     logo,
     backend,
     software,

@@ -1,14 +1,17 @@
 import React from 'react';
-import Tilt from 'react-tilt';
+import Tilt from 'react-parallax-tilt';
 import { motion } from 'framer-motion';
 
 import { styles } from '../styles';
 import { services } from '../constants';
 import { SectionWrapper } from '../hoc';
 import { fadeIn, textVariant } from '../utils/motion';
+import useWindowDimensions from '../hooks/useWindowDimensions';
 
-const ServiceCard = ({ index, title, icon }) => (
-    <Tilt className='xs:w-[250px] w-full'>
+export const ServiceCard = ({ index, title, icon }) => {
+    const { width } = useWindowDimensions();
+
+    const cardContent = () => (
         <motion.div
             variants={fadeIn('right', 'spring', index * 0.5, 0.75)}
             className='w-full green-pink-gradient p-[1px] rounded-[20px] shadow-card'
@@ -32,8 +35,19 @@ const ServiceCard = ({ index, title, icon }) => (
                 </h3>
             </div>
         </motion.div>
-    </Tilt>
-);
+    );
+
+    return (
+        <>
+            {width > 767 && (
+                <Tilt className='xs:w-[250px] w-full'>{cardContent()}</Tilt>
+            )}
+            {width <= 767 && (
+                <div className='xs:w-[250px] w-full'>{cardContent()}</div>
+            )}
+        </>
+    );
+};
 
 const About = () => {
     return (
