@@ -27,6 +27,7 @@ import {
     telegram,
     linkedin,
     resume,
+    fileManager,
 } from '../assets';
 
 export const navLinks = [
@@ -72,7 +73,7 @@ const contacts = [
     {
         title: 'Resume',
         icon: resume,
-        link: 'https://www.dropbox.com/s/nwaikxaodmcdc9a/Resume%20Vitalii%20Tereshchenko.pdf?dl=1',
+        link: 'https://www.dropbox.com/s/hv3hsyuny57xu3g/Vitalii_Tereshchenko_Resume.pdf?dl=0',
     },
     {
         title: 'Github',
@@ -265,7 +266,7 @@ const projects = [
         tags: [
             {
                 name: 'javascript',
-                color: 'blue-text-gradient',
+                color: 'text-yellow-400',
             },
             {
                 name: 'css',
@@ -285,20 +286,49 @@ const projects = [
             "The Quiz Pop App is an interactive application designed to test your knowledge on different topics.The app's intuitive user interface allows participants to easily navigate through the quiz, selecting their answers from a range of options. At the end of the quiz, users are presented with their overall results, showcasing their performance and knowledge on the chosen topic.",
         tags: [
             {
-                name: 'react',
-                color: 'blue-text-gradient',
+                name: 'javascript',
+                color: 'text-yellow-400',
             },
             {
-                name: 'restapi',
+                name: 'css',
                 color: 'green-text-gradient',
             },
             {
-                name: 'scss',
+                name: 'html',
                 color: 'pink-text-gradient',
             },
         ],
         image: quizpopapp,
         source_code_link: 'https://github.com/metalyx/quiz-pop-hackathon',
+    },
+    {
+        name: 'File Manager',
+        description:
+            'File Manager App. This is like a simple version of Google Driver or Dropbox. Just create account and upload your files!',
+        tags: [
+            {
+                name: 'javascript',
+                color: 'text-yellow-400',
+            },
+            {
+                name: 'typescript',
+                color: 'blue-text-gradient',
+            },
+            {
+                name: 'mui',
+                color: 'green-text-gradient',
+            },
+            {
+                name: 'react',
+                color: 'text-blue-400',
+            },
+            {
+                name: 'jwt',
+                color: 'text-green-300',
+            },
+        ],
+        image: fileManager,
+        source_code_link: 'https://github.com/metalyx/file-manager',
     },
 ];
 

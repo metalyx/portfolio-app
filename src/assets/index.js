@@ -33,6 +33,7 @@ import linkedin from './contacts/linkedin.png';
 import mylibrary from './mylibrary.png';
 import quizpopapp from './quizpopapp.png';
 import weatherapp from './weatherapp.png';
+import fileManager from './file-manager.png';
 
 export {
     telegram,
@@ -61,6 +62,7 @@ export {
     intradesk,
     gotour,
     mylibrary,
+    fileManager,
     quizpopapp,
     weatherapp,
     school,
