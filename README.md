@@ -1,3 +1,3 @@
 # Portfolio
 
-<i>Link for the demo: https://portfolio-app-rhq1.onrender.com/</i>
+<i>Link for the demo: https://vitalii-tereshchenko.onrender.com/</i>
