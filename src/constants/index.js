@@ -73,7 +73,7 @@ const contacts = [
     {
         title: 'Resume',
         icon: resume,
-        link: 'https://www.dropbox.com/s/hv3hsyuny57xu3g/Vitalii_Tereshchenko_Resume.pdf?dl=0',
+        link: 'https://www.dropbox.com/scl/fi/k4ofx9xrlspvy6mg179rc/Resume.pdf?rlkey=lcmno0242agaxmmooja84mlaz&dl=0',
     },
     {
         title: 'Github',
